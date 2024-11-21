@@ -333,7 +333,7 @@ footer {
     }
    
     .row {
-        width: calc(25% - 10px);
+        min-width: calc(25% - 10px);
         /* 3 productos por fila */
     }
 
