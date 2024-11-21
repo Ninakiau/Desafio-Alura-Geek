@@ -1,0 +1,345 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    min-height: 100dvh;
+    grid-template-rows: auto 1fr auto;
+
+}
+
+header {
+    background-color: #5300C8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 96px;
+}
+
+.header__logo--hearts {
+    width: 150px;
+}
+
+.header__logo {
+    width: 180px;
+    height: auto;
+}
+
+.header__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form__container--title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-block: 2rem;
+}
+
+.form__title {
+    font-family: "Press Start 2P", system-ui;
+    color: #000000;
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-align: right;
+    margin: 5px;
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.product__container--title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-block: 2rem;
+}
+
+.product__title {
+    font-family: "Press Start 2P", system-ui;
+    color: #000000;
+    font-size: 24px;
+    font-weight: 400px;
+    text-align: right;
+    margin: 5px;
+
+}
+
+.product__container {
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-height: 50vh;
+    overflow-x: auto;
+    /* Espacio entre filas */
+}
+
+.product__card {
+    display: flex;
+    flex-direction: column;
+    align-content: left;
+    justify-content: left;
+    align-items: left;
+}
+
+.card__image {
+    width: 176px;
+    height: 174px;
+    border: #000000 solid 3px;
+}
+
+.card__description {
+    padding-top: .5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+    width: 100%;
+}
+
+.card__tag {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.card__title {
+    font-family: "IBM Plex Mono", monospace;
+    color: #ffffff;
+    font-size: 15PX;
+    font-weight: lighter;
+    text-align: left;
+    margin: 5px;
+}
+
+.card__price {
+    font-family: "IBM Plex Mono", monospace;
+    color: #ffffff;
+    font-size: 16PX;
+    font-weight: 700px;
+    text-align: left;
+    margin: 5px;
+}
+
+.delete__button {
+    background-image: url(../assets//img/basurero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+}
+
+.product__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    background-color: #6200ea;
+    border: #000000 solid 3px;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: -5px 6px 3.3px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 2rem;
+}
+
+input {
+    font-family: "IBM Plex Mono", monospace;
+    color: #03318C;
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+    height: 30px;
+    border: 3px solid transparent;
+    border-color: #03318C;
+    border-radius: 30px;
+}
+
+input::placeholder {
+    color: #03318C;
+    opacity: 1;
+}
+
+.form__button--container {
+    padding-bottom: 2rem;
+}
+
+.form__button {
+    font-family: "IBM Plex Mono", monospace;
+    color: #ffffff;
+    background-color: #03318C;
+    font-size: 20px;
+    border: 3px solid transparent;
+    border-radius: 15px;
+    width: 164px;
+    height: 55px;
+}
+
+.form__button--reset {
+    font-family: "IBM Plex Mono", monospace;
+    color: #03318C;
+    background-color: #ffffff;
+    font-size: 20px;
+    border: 3px solid transparent;
+    border-radius: 15px;
+    border-color: #03318C;
+    width: 164px;
+    height: 55px;
+}
+
+footer {
+    background-color: #5300C8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: .4rem;
+    align-items: center;
+    width: 100%;
+    height: 168px;
+}
+
+.footer__logo--hearts {
+    width: 150px;
+}
+
+.footer__logo {
+    width: 180px;
+    height: auto;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__coyright--container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+.footer__copy {
+    font-family: "IBM Plex Mono", monospace;
+    color: white;
+    font-size: .8rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    padding: 0;
+    margin: 0;
+}
+
+.footer__copy--date {
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 200;
+    color: white;
+    font-size: .7rem;
+    margin-top: 1rem;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+/* En móviles (hasta 767px), queremos 2 filas de productos */
+@media (max-width: 767px) {
+    .row {
+        width: calc(70% - 10px);
+        overflow-y: scroll;
+        /* 2 productos por fila */
+    }
+
+    .product__container {
+        padding-inline: 10px;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+/* Estilo general para el scroll */
+::-webkit-scrollbar {
+    width: 12px;  /* Establece el tamaño de la barra de desplazamiento */
+    height: 12px; /* Establece el tamaño del scroll horizontal */
+  }
+  
+  /* Estilo para el "thumb" (la parte que se mueve) */
+  ::-webkit-scrollbar-thumb {
+    background-color: #888; /* Color del thumb */
+    border-radius: 6px;     /* Bordes redondeados */
+    border: 3px solid #f1f1f1; /* Un borde alrededor del thumb */
+  }
+  
+  /* Estilo para el área de fondo del scroll */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;   /* Color de fondo del track */
+    border-radius: 6px;     /* Bordes redondeados */
+  }
+  
+  /* Estilo cuando el usuario pasa el mouse por encima del "thumb" */
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Color del thumb al hacer hover */
+  }
+  
+/* En escritorio (a partir de 768px), queremos 3 filas de productos */
+@media (min-width: 768px) {
+    main{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content:space-evenly;
+        align-items: start;
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+   
+    .row {
+        width: calc(25% - 10px);
+        /* 3 productos por fila */
+    }
+
+    .product__container {
+        flex-wrap: wrap;
+        max-width: 80vh;
+        max-height: 60vh;
+    }
+}

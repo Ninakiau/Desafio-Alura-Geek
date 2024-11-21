@@ -1,0 +1,82 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Stormtrooper Mug",
+      "price": 60,
+      "image": "https://m.media-amazon.com/images/I/71mpF6fCzlL.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Game Boy Classic",
+      "price": 60,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Game-Boy-FL.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Retro Radio",
+      "price": 45,
+      "image": "https://http2.mlstatic.com/D_NQ_NP_694405-MLC76124643727_052024-O.webp"
+    },
+    {
+      "id": "4",
+      "name": "Vintage Camera",
+      "price": 75,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUCG1-dHpneIZMS0_pmAvMz-vzefq2wJrb6A&s"
+    },
+    {
+      "id": "5",
+      "name": "Wooden Globe",
+      "price": 90,
+      "image": "https://i.etsystatic.com/19081478/r/il/822ba3/3420569886/il_570xN.3420569886_mq0k.jpg"
+    },
+    {
+      "id": "6",
+      "name": "Classic Clock",
+      "price": 50,
+      "image": "https://m.media-amazon.com/images/I/71KwJGS1FUL.jpg"
+    },
+    {
+      "id": "7",
+      "name": "Vinyl Record Player",
+      "price": 120,
+      "image": "https://m.media-amazon.com/images/I/71YyBDiqjxL._AC_SL1500_.jpg"
+    },
+    {
+      "id": "8",
+      "name": "Polaroid Camera",
+      "price": 95,
+      "image": "https://cdn.thewirecutter.com/wp-content/media/2023/10/instantcameras-2048px-02018.jpg?auto=webp&quality=75&width=1024"
+    },
+    {
+      "id": "9",
+      "name": "Classic Car Model",
+      "price": 85,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdMakUdhh60sE7lKXIo1qgjPSML5BqixdLXg&s"
+    },
+    {
+      "id": "10",
+      "name": "Vintage Telephone",
+      "price": 70,
+      "image": "https://m.media-amazon.com/images/I/51aJf-NwEuS._AC_SL1000_.jpg"
+    },
+    {
+      "id": "11",
+      "name": "Chess Set",
+      "price": 40,
+      "image": "https://m.media-amazon.com/images/I/810TNphPcNL._AC_SL1500_.jpg"
+    },
+    {
+      "id": "12",
+      "name": "Antique Lamp",
+      "price": 110,
+      "image": "https://m.media-amazon.com/images/I/51aMinIozVS._AC_.jpg"
+    },
+    {
+      "id": "91",
+      "name": "iphone",
+      "price": 500,
+      "image": "https://d1aqw5mz0wngqe.cloudfront.net/images/spree/images/2469405/attachments/large/iPhone_16_Black_1.jpg?1726144850"
+    }
+  ]
+}
